@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header-pic {
+    padding-top: 30px;
+}
+.header-bg-color {
+    background-color: black;
+}
+.header-title {
+    padding-right: 20%;
+    margin-left: 20px;
+}
+.header-title h1 {
+    font-size: 60px;
+    margin-bottom: 16px;
+    color: #ce7d06;
+    word-spacing: 10px;
+    font-family: "Berkshire Swash", cursive;
+}
+.header-title p {
+    font-size: 17px;
+}
+/*  */
+.cards-section {
+    margin-top: 50px;
+    width: 80%;
+}
+.calculation-section {
+    width: 20%;
+    background-color: aquamarine;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.selected-player {
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 20px;
+}
+.selected-player h2 {
+    color: #ce7d06;
+    font-family: "Berkshire Swash", cursive;
+}
+.selected-player li {
+    padding-left: 6px;
+}
