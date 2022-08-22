@@ -25,13 +25,15 @@
     font-size: 17px;
 }
 /*  */
-.cards-section {
+.main-section {
+    background-color: #151515;
+}
+.section-left {
     margin-top: 50px;
     width: 80%;
 }
-.calculation-section {
+.section-right {
     width: 20%;
-    background-color: aquamarine;
     margin-top: 50px;
     margin-left: 25px;
 }
@@ -39,6 +41,7 @@
     background-color: black;
     color: white;
     padding: 10px 0 10px 20px;
+    border-radius: 5px;
 }
 .selected-player h2 {
     color: #ce7d06;
@@ -46,4 +49,30 @@
 }
 .selected-player li {
     padding-left: 6px;
+}
+.calculation-section {
+    background-color: black;
+    margin-top: 30px;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+.calculation-section h2 {
+    color: #ce7d06;
+    font-family: "Berkshire Swash", cursive;
+}
+.perPlayer-field {
+    width: 120px;
+
+    border: 1px solid white;
+    background-color: black;
+}
+.perPlayer-field-p {
+    color: white;
+    margin-bottom: 0;
+}
+.button {
+    padding: 4px 0;
+    width: 100%;
+    background-color: #015196;
+    color: white;
 }
