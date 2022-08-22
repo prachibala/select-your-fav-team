@@ -8,7 +8,7 @@
     padding-top: 30px;
 }
 .header-bg-color {
-    background-color: black;
+    background-color: #041c32;
 }
 .header-title {
     padding-right: 20%;
@@ -26,19 +26,19 @@
 }
 /*  */
 .main-section {
-    background-color: #151515;
+    background-color: #1a374d;
 }
 .section-left {
     margin-top: 50px;
-    width: 80%;
+    width: 75%;
 }
 .section-right {
-    width: 20%;
+    width: 25%;
     margin-top: 50px;
     margin-left: 25px;
 }
 .selected-player {
-    background-color: black;
+    background-color: #041c32;
     color: white;
     padding: 10px 0 10px 20px;
     border-radius: 5px;
@@ -51,7 +51,7 @@
     padding-left: 6px;
 }
 .calculation-section {
-    background-color: black;
+    background-color: #041c32;
     margin-top: 30px;
     padding: 10px 23px;
     border-radius: 5px;
@@ -64,15 +64,32 @@
     width: 120px;
 
     border: 1px solid white;
-    background-color: black;
+    background-color: #041c32;
 }
 .perPlayer-field-p {
     color: white;
     margin-bottom: 0;
 }
+/* common button */
 .button {
-    padding: 4px 0;
+    padding: 5px 0;
     width: 100%;
-    background-color: #015196;
+    background-color: #112b3c;
     color: white;
+    border: none;
+}
+/* common style */
+.bg-color {
+    background-color: #041c32;
+}
+.card-border {
+    border: none;
+}
+
+.footer {
+    font-family: "Berkshire Swash", cursive;
+    background-color: #1a374d;
+    padding: 2% 0 1.5% 0;
+    color: white;
+    color: #ce7d06;
 }
