@@ -22,7 +22,7 @@
                 </div>
 
                 <div class="header-title">
-                    <h1 class="h1">Select Your Best Five</h1>
+                    <h1 class="h1">Build Your Dream Five Team</h1>
                     <p class="text-white">
                         Amet minim mollit non deserunt ullamco est sit aliqua
                         dolor do amet sint. Velit officia consequat duis enim
@@ -37,6 +37,7 @@
             <div class="container d-flex">
                 <div class="section-left">
                     <div class="row row-cols-1 row-cols-md-3 g-5">
+                        <!-- card-1 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -48,6 +49,7 @@
                                     <h5
                                         class="card-title text-center"
                                         style="color: #ce7d06"
+                                        id="name"
                                     >
                                         Cristiano Ronaldo
                                     </h5>
@@ -57,11 +59,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
+                        <!-- card-02 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -82,11 +90,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
+                        <!-- card-03 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -107,10 +121,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-04 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -131,10 +152,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-05 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -155,10 +183,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-06 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -179,10 +214,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-07 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -203,10 +245,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-08 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -227,10 +276,17 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- card-09 -->
                         <div class="col">
                             <div class="card h-100" style="border: none">
                                 <img
@@ -251,7 +307,13 @@
                                         <span>36 Goals</span
                                         ><span>120 Assist</span>
                                     </p>
-                                    <button class="button">Select</button>
+                                    <button
+                                        class="button"
+                                        id="select-btn"
+                                        onclick="buttonClick(this)"
+                                    >
+                                        Select
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -260,13 +322,7 @@
                 <div class="section-right">
                     <div class="selected-player">
                         <h2 class="text-center p-2">Selected-V</h2>
-                        <ol>
-                            <li>number one</li>
-                            <li>number two</li>
-                            <li>number one</li>
-                            <li>number two</li>
-                            <li>number one</li>
-                        </ol>
+                        <ol id="ol"></ol>
                     </div>
                     <div class="calculation-section">
                         <h2 class="text-center p-3">Budget</h2>
@@ -277,15 +333,18 @@
                                 <input
                                     type="text"
                                     class="perPlayer-field text-center"
+                                    id="perPlayerField"
                             /></span>
 
-                            <button class="button mb-3">Calculate</button>
+                            <button class="button mb-3" id="calculateButton">
+                                Calculate
+                            </button>
                             <p class="d-flex justify-content-between mb-3">
                                 <span style="color: white"
                                     >Player Expenses
                                 </span>
                                 <span style="color: #ce7d06"
-                                    >$ <span>5000</span>
+                                    >$<span id="playerExpenses">0</span>
                                 </span>
                             </p>
 
@@ -295,6 +354,7 @@
                                 <input
                                     type="text"
                                     class="perPlayer-field text-center"
+                                    id="manager"
                             /></span>
 
                             <span
@@ -303,11 +363,16 @@
                                 <input
                                     type="text"
                                     class="perPlayer-field text-center"
+                                    id="coach"
                             /></span>
-                            <button class="button mb-3">Calculate Total</button>
+                            <button class="button mb-3" id="calculateTotal">
+                                Calculate Total
+                            </button>
                             <p class="d-flex justify-content-between mb-3">
                                 <span style="color: white">Total </span>
-                                <span style="color: #ce7d06">$11000</span>
+                                <span style="color: #ce7d06"
+                                    >$<span id="total">0</span>
+                                </span>
                             </p>
                         </div>
                     </div>
@@ -321,6 +386,53 @@
             <p>Copyright @ 2022 All Rights Reserved.</p>
         </footer>
 
+        <!-- Modal -->
+        <div
+            class="modal fade"
+            id="warningModal"
+            tabindex="-1"
+            aria-labelledby="warningModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="warningModalLabel">
+                            Warning!
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        You have already selected 5 players.
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
         <script src="script.js"></script>
     </body>
 </html>
